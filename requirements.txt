@@ -1,0 +1,8 @@
+python-dotenv
+flask
+langchain
+langchain-google-genai
+chromadb
+pypdf
+langchain-community
+langchain-text-splitters

@@ -1,0 +1,12 @@
+# Ignorar el entorno virtual
+venv/
+
+# Ignorar la base de datos local de la IA
+chroma_db/
+
+# Ignorar archivos temporales de Python
+__pycache__/
+*.pyc
+
+# (Opcional) Si no quieres subir tus PDFs por privacidad, descomenta la siguiente línea
+# datos/
