@@ -1,12 +1,27 @@
-# Ignorar el entorno virtual
+# Entorno virtual y caché de Python
 venv/
-
-# Ignorar la base de datos local de la IA
-chroma_db/
-
-# Ignorar archivos temporales de Python
+.venv/
 __pycache__/
-*.pyc
+*.py[cod]
 
-# (Opcional) Si no quieres subir tus PDFs por privacidad, descomenta la siguiente línea
-# datos/
+# Datos locales generados por la aplicación
+usuarios.db
+usuarios.db-*
+*.sqlite
+*.sqlite3
+chroma_db/
+modelos/
+
+# Configuración local y secretos
+.env
+.env.*
+!.env.example
+
+# Archivos generados por React/Vite
+frontend-ia/node_modules/
+frontend-ia/dist/
+frontend-ia/.vite/
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
